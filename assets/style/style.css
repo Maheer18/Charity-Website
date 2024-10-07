@@ -1,0 +1,522 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+
+.navbar {
+  background: #000000d3;
+  backdrop-filter: opacity(0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 80px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+.container {
+  padding: 0px 30px;
+}
+.navbar img {
+  width: 100px;
+  object-fit: cover;
+}
+
+.navbar .container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  height: 100%;
+}
+
+.navbar .links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 200;
+  font-size: 13px;
+}
+
+.navbar button {
+  background: #4f6122;
+  border: none;
+  text-align: center;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 20px;
+  font-weight: 300;
+}
+.HeaderContainer {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../images/header.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.HeaderContainer .title {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  max-width: 500px;
+}
+
+.HeaderContainer .button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.HeaderContainer button {
+  padding: 10px 14px;
+  border-radius: 30px;
+  border: none;
+}
+
+.HeaderContainer .button1 {
+  background: #4f6122;
+  color: whitesmoke;
+}
+.HeaderContainer .button2 {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.Vol {
+  background-color: #dddddd;
+  margin: 4px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+
+  padding: 50px;
+  height: 150px;
+}
+
+.Vol .card .top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.Vol .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.Vol img {
+  width: 30px;
+}
+
+.Vol .value {
+  font-size: 30px;
+  color: #4f6122;
+  font-weight: 600;
+}
+
+.Vol .details {
+  color: #4f6122;
+  font-size: 10px;
+}
+
+.Mb {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  /* height: 180px; */
+}
+
+.MbImage {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.Mb .card {
+  width: 100%;
+}
+
+.Mb .title {
+  font-size: 25px;
+  max-width: 300px;
+  font-weight: 600;
+  color: #4f6122;
+}
+.Mb button {
+  border: 1px solid #4f6122;
+  background-color: transparent;
+  text-align: center;
+  color: #4f6122;
+  padding: 10px 16px;
+  border-radius: 20px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+.Impact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  height: 250px;
+
+  padding: 50px;
+}
+.Impact .left {
+  flex: 3;
+}
+.Impact .title {
+  font-size: 25px;
+  color: #4f6122;
+}
+
+.Impact .right {
+  flex: 1;
+  position: relative;
+}
+.Impact .right .img1 {
+  width: 200px;
+}
+.Impact .right .img2 {
+  position: absolute;
+  width: 100px;
+  top: 150px;
+  left: 50px;
+}
+.Impact .right .img3 {
+  width: 60px;
+  position: absolute;
+  left: 40px;
+  top: -50;
+}
+.Impact p {
+  font-size: 13px;
+  margin-top: 10px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.Impact button {
+  border: 1px solid #4f6122;
+  background-color: transparent;
+  text-align: center;
+  color: #4f6122;
+  padding: 10px 16px;
+  border-radius: 20px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+.Dec {
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  gap: 20px;
+  background-image: url("../images/green.png");
+}
+.Dec .left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Dec .left .title {
+  font-size: 30px;
+  color: #4f6122;
+}
+.Dec p {
+  color: white;
+  max-width: 400px;
+}
+
+.Dec .right {
+  flex: 1;
+}
+
+.Dec .right button {
+  background: #769b1a;
+
+  text-align: center;
+  color: #fff;
+  text-align: center;
+  width: 200px;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+.Our {
+  margin-top: 10px;
+  padding: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.Our .title {
+  font-size: 25px;
+  color: #4f6122;
+}
+
+.Our .cards {
+  display: flex;
+  gap: 30px;
+  width: 100vw;
+  padding: 0px 50px;
+}
+
+.Our .cards .card {
+  flex: 1;
+}
+
+.Our img {
+  width: 250px;
+  object-fit: cover;
+  height: 200px;
+  border-radius: 10px;
+  justify-content: center;
+  width: 100%;
+}
+
+.Our .name {
+  font-weight: bold;
+  max-width: 250px;
+}
+.Our .text {
+  font-size: 13px;
+  max-width: 250px;
+}
+.Our .more {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+  color: gray;
+}
+
+.About {
+  padding: 40px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.About .title {
+  font-size: 25px;
+  color: #769b1a;
+}
+
+.About .grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 100vw;
+}
+
+.About .subTitle {
+  font-weight: bold;
+}
+.About p {
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.About .right {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.About img {
+  width: 300px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.About .grid div {
+  flex: 1;
+}
+
+.Pt {
+  display: flex;
+  align-content: inherit;
+  justify-content: sb;
+  width: 100%;
+  padding: 0px 200px;
+}
+
+.Pt img {
+  width: 300px;
+  object-fit: contain;
+}
+
+.footImage {
+  width: 100%;
+  object-fit: cover;
+  /* height: 100px; */
+}
+
+/* Donate */
+.Donate {
+  padding: 20px;
+}
+.Donate .title {
+  font-size: 25px;
+  color: #769b1a;
+}
+
+.Donate .grid {
+  display: flex;
+  gap: 10px;
+}
+
+.Donate .buttons {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 5px;
+}
+.Donate button {
+  width: 38px;
+  height: 25px;
+  background-color: #fff;
+  border-radius: 6px;
+  font-size: 10px;
+  border: 1px #769b1a solid;
+}
+
+.grid2 button {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.GetStarted {
+  width: 100%;
+  padding: 25px;
+  background-color: #4f6122;
+  color: #fff;
+}
+
+.GetStarted title {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.GetStarted .details {
+  font-size: 11px;
+  font-weight: lighter;
+}
+.sb {
+  font-size: 11px;
+  margin-top: 10px;
+}
+.sb input {
+  border-radius: 10px;
+  padding: 5px 10px;
+  width: 300px;
+  border: none;
+  margin-top: 10px;
+}
+
+.sb button {
+  padding: 5px 10px;
+  color: white;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.link a {
+  color: white;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+footer {
+  padding: 20px 40px;
+}
+
+footer .logo {
+  width: 120px;
+}
+footer .icon {
+  width: 15px;
+}
+
+.de {
+  display: flex;
+  gap: 10px;
+  color: gray;
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+
+.fot {
+  display: flex;
+  gap: 40px;
+}
+
+.fot .right {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.fot .right .title {
+  font-size: 13px;
+  color: #4f6122;
+  font-weight: bold;
+}
+
+.fot ul {
+  list-style: none;
+}
+
+.fot li a {
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-size: 13px;
+  color: gray;
+}
+
+.uu {
+  width: 100%;
+  text-align: right;
+  color: gray;
+}
